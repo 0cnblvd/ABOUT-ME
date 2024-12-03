@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+    
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <img src="assets/Profile.JPG" alt="Me" class="about-photo">
+                <div class="about-description">
+                    <h2>Who is this DIVA?</h2>
+                    <p>
+                        Hello my name is Humawan Ilham Marzuki, I'm 19 and people usually call me Humam. 
+                        I'm a shoegaze enthusiast, I really love playing games especially story games. I'm a college student, 
+                        currently majoring media production at Universtas Indonesia. 
+                    </p>
+                    <p>
+                        I really enjoys watching Horror/thriller movies. if you talk about my favorite like enjoy watching it is Scream movie series but 
+                        what comes to my mind when talk about the Horror Horror is gonna be Evil Dead 2013. but, my recent favourite movie is called 
+                        "Wicked". What can I say i can't decide to have one favorite movies LOL. And I also listens to Current Joys, 
+                        Lana Del Rey, Radiohead. my favouritefictional character is Wanda Maximoff.
+                         feel free to reach me up 
+                </div>
+            </div>
+        </section>
+
+        
+<section id="hobbies" class="hobbies-section">
+    <h2>Hobbies & Interests</h2>
+    <h3>Listens to Music</h3>
+
+    <!-- LANA DEL REY -->
+    <div class="hobby-container">
+        <div class="hobby-media">
+            <img src="assets/born to die.jpg" class="hobby-image">
+            <audio controls>
+                <source src="assets/Video Games-Lana Del Rey.mp3" type="audio/mpeg">
+                
+            </audio>
+        </div>
+        <div class="hobby-description">
+            <h3>Video Games-Lana Del Rey</h3>
+            <p>
+                This song is one of my favorite song by Lana Del Rey. This song came out in 2012 comes with her "Born To Die" Album <br> there's 
+                something about this song that makes this feels so magical. I always listen to rhis song everytime
+                 I go to campus or far journey like when travel across Jakarta. every rythm and melody felt tragically beautifull
+            </p>
+        </div>
+    </div>
+
+    <!-- CURRENT JOYS -->
+    <div class="hobby-container">
+        <div class="hobby-media">
+            <img src="assets/kids.jpg" alt="Album Lagu 2" class="hobby-image">
+            <audio controls>
+                <source src="assets/Kids-Current Joys.mp3" type="audio/mpeg">
+                
+            </audio>
+        </div>
+        <div class="hobby-description">
+            <h3>Kids-Current Joys</h3>
+            <p>
+                Kids by Current Joys is a hauntingly beautiful and nostalgic 
+                song that captures the essence of youthful innocence and the bittersweetness
+                 of growing up. With its dreamy melodies and melancholic lyrics, 
+                the song evokes memories of simpler times—when life felt more carefree, and the world seemed full of possibility.<br>
+                The lyrics of Kids reflect a longing for the past, a 
+                yearning for the carefree joy of childhood, and a 
+                recognition that time inevitably moves forward. The 
+                song paints a vivid picture of memories, like playing with
+                 friends, exploring the world without fear, and experiencing emotions 
+                 for the first time. Its reflective tone stirs a sense of wistfulness, as the narrator looks back on a 
+                time when things felt purer and more untainted by the complexities of adulthood.
+            </p>
+        </div>
+    </div>
+</section>
+
+<h3>Watching Movies</h3>
+            
+            <div class="hobby-container">
+                
+                <img src="assets/Film.jpg" alt="Highly Recommended by me" class="hobby-image">
+                
+                <div class="hobby-description">
+                    <h3>Enternal Sunshine of the Spotless Mind</h3>
+                    <p>Eternal Sunshine of the Spotless Mind (2004) is a science fiction 
+                        romantic drama directed by Michel Gondry and written by Charlie Kaufman. 
+                        The film follows Joel Barish (Jim Carrey) and Clementine Kruczynski (Kate Winslet), 
+                        a couple who undergo a medical procedure to erase each other from their memories after a painful breakup.</p>
+
+                    <p>The story unfolds non-linearly, as Joel experiences his memories of 
+                        Clementine being systematically erased. As he relives their relationship, 
+                        he realizes he still loves her and desperately tries to hold onto the memories.
+                         Throughout the process, the film explores themes of love, memory, pain, and identity, questioning whether
+                         erasing painful memories would actually improve one's life.</p>
+                    <p>The film's structure and visual style reflect the fragmentation of memories, 
+                        using inventive techniques to illustrate Joel's emotional journey. Ultimately, Eternal Sunshine 
+                        is a meditation on the complexities of relationships and the value of both the good and bad moments in life. 
+                        The film received critical 
+                        acclaim for its originality, performances, and exploration of human emotions.</p>
+                    
+                </div>
+            </div>
+        </section>
+
+    
+        <section id="get-in-touch" class="get-in-touch-section">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <!-- Nama -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="input your name" required>
+                    <span id="name-error" class="error-message"></span>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="input your email" required>
+                    <span id="email-error" class="error-message"></span>
+                </div>
+                
+                <!-- Pesan -->
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="text here" required></textarea>
+                    <span id="message-error" class="error-message"></span>
+                </div>
+                
+                <!-- Tombol Submit dan Reset -->
+                <div class="form-actions">
+                    <button type="submit" id="submit-btn">Submit</button>
+                    <button type="reset" id="reset-btn">Reset</button>
+                </div>
+            </form>
+        
+            <!-- Pesan Sukses -->
+            <div id="success-message" class="success-message"></div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; get to know about me </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
